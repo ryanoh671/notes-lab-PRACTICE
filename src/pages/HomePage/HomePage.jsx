@@ -25,7 +25,7 @@ export default function HomePage({notes, addNote}) {
         <button type="submit">ADD NOTE</button>
       </form>
       <ul>
-            {notes.map(n => (<li key={n._id}>{n.text}</li>))}
+        {notes.map(n => (<li key={n._id}>{n.text}</li>))}
       </ul>
     </>
   );
